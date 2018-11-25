@@ -1,0 +1,50 @@
+Message-ID: <25134234.1075844001812.JavaMail.evans@thyme>
+Date: Fri, 2 Feb 2001 00:39:00 -0800 (PST)
+From: matt.smith@enron.com
+To: tom.halliburton@enron.com
+Subject: Re: Interpreting Curves Data
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Matt Smith
+X-To: Tom Halliburton
+X-cc: 
+X-bcc: 
+X-Folder: \Matthew_Smith_June2001\Notes Folders\All documents
+X-Origin: SMITH-M
+X-FileName: msmith18.nsf
+
+Tom,
+
+I believe that your right up correctly interprets the current model, but as 
+we discussed, I think the more correct methodology is to use the next day's 
+cash price since the Gas Daily print is for gas traded the previous day and 
+delivered the same day as the print.  If I'm trading day gas on April 7th, 
+the prices I'm basing my decisions on are those represented in the Gas Daily 
+print for April 8th.  If we do not change the model, I think we need another 
+sentence to clarify that the cash prices a day behind.  Of course, eventually 
+we need to fix the model.
+
+Mat
+
+  
+ 
+
+
+
+
+Tom Halliburton
+02/02/2001 08:25 AM
+To: Matt Smith/NA/Enron@ENRON
+cc:  
+
+Subject: Interpreting Curves Data
+
+Matt,
+Here's a one page document showing how I have interpreted the curves data.  
+If you would like any changes, please mark up / edit and I'll make the 
+changes today.
+
+
+Tom
+

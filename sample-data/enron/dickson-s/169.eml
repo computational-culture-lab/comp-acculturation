@@ -1,0 +1,72 @@
+Message-ID: <19271095.1075853653679.JavaMail.evans@thyme>
+Date: Tue, 5 Jun 2001 04:23:00 -0700 (PDT)
+From: stacy.dickson@enron.com
+To: susan.elledge@enron.com
+Subject: FW: Product type approval needed (US Gas Phy Fwd Secondary Firm)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Stacy E Dickson
+X-To: Susan Elledge
+X-cc: 
+X-bcc: 
+X-Folder: \Stacey_Dickson_Nov2001\Notes Folders\All documents
+X-Origin: Dickson-S
+X-FileName: sdickso.nsf
+
+Does this help?  I have approved this product.
+----- Forwarded by Stacy E Dickson/HOU/ECT on 06/05/2001 11:22 AM -----
+
+	Chris Walker/ENRON@enronXgate
+	06/04/2001 01:38 PM
+		 
+		 To: Stacy E Dickson/HOU/ECT@ECT
+		 cc: 
+		 Subject: FW: Product type approval needed (US Gas Phy Fwd Secondary Firm)
+
+Stacy,
+
+Could you reply and copy Mark Taylor with your approval of Kevin Ruscitti's 
+new Secondary Firm product type.  Mark will then make the appropriate 
+approval in Data Manager.
+
+Thanks,
+
+CW
+3-7533
+
+
+ -----Original Message-----
+From:  Walker, Chris  
+Sent: Friday, June 01, 2001 3:42 PM
+To: Blumenthal, Jeff; Musch, Susan; Hayden, Frank; Taylor, Mark; Dickson, 
+Stacy; Moran, Tom; Love, Phillip M.; Hunter, Larry Joe
+Cc: Lees, Lisa; Sweitzer, Tara; Jones, Tana; Lambert, Karen; Lombardi, Kelly; 
+Sever, Stephanie; Kenne, Dawn C.; Moorer, Torrey; Cass, Robert B.; Meredith, 
+Kevin; Lozano, Melba; Alatorre, Carlos
+Subject: Product type approval needed (US Gas Phy Fwd Secondary Firm)
+
+Please approve the following product type in Data Manager after 11 A.M.
+
+US Gas Phy Fwd Secondary Firm
+
+
+
+
+
+STEPS FOR APPROVAL:
+
+click the  START button 
+select  PROGRAMS
+select  TEST APPLICATIONS
+select ENRONONLINE CLUSTER(PROD)
+ PROCEED WITH USUAL LOGIN/PASSWORD 
+click the Enron Online Production Cluster "START" button  
+select EnronOnLine (this is the EOL Datamanager)
+ PROCEED WITH EOL LOGIN/PASSWORD
+click on the "+" for EnronOnLine
+click on the "+" for Product Types
+click on the "+" for "Awaiting Approval" (OR  "Partially Approved")
+select the product requiring review as stated in e-mail above
+Right "mouse" click on "properties" to view product set-up 
+TO APPROVE:  Right mouse click on "Approved"

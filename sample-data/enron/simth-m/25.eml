@@ -1,0 +1,35 @@
+Message-ID: <2233799.1075843999023.JavaMail.evans@thyme>
+Date: Wed, 23 Aug 2000 01:35:00 -0700 (PDT)
+From: kenneth.shulklapper@enron.com
+To: stephen.harrington@enron.com
+Subject: Enron Storage Model
+Cc: matt.smith@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: matt.smith@enron.com
+X-From: Kenneth Shulklapper
+X-To: Stephen Harrington
+X-cc: Matt Smith
+X-bcc: 
+X-Folder: \Matthew_Smith_June2001\Notes Folders\All documents
+X-Origin: SMITH-M
+X-FileName: msmith18.nsf
+
+Steve,
+
+as we have discussed,  I want to develop a model that can be used to 
+determine the actual value of storage by looking at deals done in the past.  
+In doing this, I need the model to be able to pull historical curves from 
+Oracle by basis location.  It will need to pull Interest Rate, Gas Daily, 
+Balance of the month (Swing Swap), Nymex and Basis.
+
+Once all of the pricing curves are pulled, the model will make daily 
+decisions based on price relative to each other to buy, sell or hold.
+
+This will probably be an extensive project so see about the pulling of the 
+curves first, and we can move forward from there.  Please call either myself 
+or Matt Smith with any questions.
+
+Ken
+3-7009

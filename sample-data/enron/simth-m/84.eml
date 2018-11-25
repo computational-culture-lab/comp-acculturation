@@ -1,0 +1,38 @@
+Message-ID: <31766721.1075844000395.JavaMail.evans@thyme>
+Date: Thu, 28 Dec 2000 09:48:00 -0800 (PST)
+From: matt.smith@enron.com
+To: lsommaripa@pirnie.com
+Subject: Re: PR Database
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Matt Smith
+X-To: "Sommaripa, Leo" <LSommaripa@PIRNIE.COM>
+X-cc: 
+X-bcc: 
+X-Folder: \Matthew_Smith_June2001\Notes Folders\All documents
+X-Origin: SMITH-M
+X-FileName: msmith18.nsf
+
+Leo,
+
+Well, actually that is how I spell my name as well...but not Enron - one of 
+the drawbacks to working for a large company.  Your analysis of the database 
+structure and its intent is correct.  The extra table enables the use of a 
+many-to-many relationship between regulatory items and facilities.  Joanne 
+and I previously discussed the need to "keep track" of all facilities 
+referenced in a particular order.  This relationship allows users to query 
+facility and review data related to an order.  For instance, if an order 
+required the upgrade of chlorination facilities at several plants, one could 
+develop a query and report that produced the results of all equipment 
+inspections for the related facilities.  This would not be possible (or at 
+least not achieved as easily) without the many to many relationship.  So yes, 
+you are giving up functionality, so I would only consider eliminating the 
+table if it would causing undo problems with the database.  As far as 
+actually modifying the database, there would be some manual labor required 
+for those orders with multiple facilities already assigned.  
+
+I have to go, but if you or Joanne need to discuss it over the phone, I'd be 
+happy to with a little notice.  
+
+Mat

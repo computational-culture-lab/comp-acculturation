@@ -1,0 +1,60 @@
+Message-ID: <11971069.1075844003636.JavaMail.evans@thyme>
+Date: Tue, 3 Apr 2001 07:28:00 -0700 (PDT)
+From: matt.smith@enron.com
+To: angela.hylton@enron.com
+Subject: FW: Column Names for Historical Files
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Matt Smith
+X-To: Angela Hylton
+X-cc: 
+X-bcc: 
+X-Folder: \Matthew_Smith_June2001\Notes Folders\All documents
+X-Origin: SMITH-M
+X-FileName: msmith18.nsf
+
+Angela,
+
+This file contains the historicals for Socal in the specified format.  Can 
+you please dump them into the database.  Thanks.
+
+Mat
+
+
+
+
+---------------------- Forwarded by Matt Smith/NA/Enron on 04/03/2001 02:25 
+PM ---------------------------
+   
+	Enron North America Corp.
+	
+	From:  Tara Piazze                           04/03/2001 01:23 PM
+	
+
+To: Matt Smith/NA/Enron@ENRON
+cc:  
+
+Subject: FW: Column Names for Historical Files
+
+Here are the headers:
+
+1.  PIPELINE_ID
+2.  EFFECTIVE_DTM
+3.  DATA_REFERENCE_NUM
+4.  FLOW_TYPE_CD
+5.  MAXIMUM_CAPACITY_QTY
+6.  UTILIZED_CAPACITY_QTY
+7.  AVAILABLE_CAPACITY_QTY
+8.  PIPELINE_CYCLE_ID
+
+These are the column headings needed for the historical data Excel files 
+(they do not have to be in any particular order, but initially a template 
+should be created, and then used throughout).  This format makes it a simple 
+process to load this information into the database.
+
+Thanks for all of your hard work!!
+
+Chris
+
+

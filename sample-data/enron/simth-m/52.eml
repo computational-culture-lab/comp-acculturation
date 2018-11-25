@@ -1,0 +1,35 @@
+Message-ID: <25878145.1075843999676.JavaMail.evans@thyme>
+Date: Tue, 28 Nov 2000 22:51:00 -0800 (PST)
+From: matt.smith@enron.com
+To: pablo.torres@enron.com
+Subject: wesite error
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Matt Smith
+X-To: Pablo Torres
+X-cc: 
+X-bcc: 
+X-Folder: \Matthew_Smith_June2001\Notes Folders\All documents
+X-Origin: SMITH-M
+X-FileName: msmith18.nsf
+
+Pablo, 
+
+Have we made any progress on finding out why the Northwest website is not 
+accessible before 7 am?  For your reference the error message is below.  
+
+The address is http://www.1line.williams.com/webbi/ebb/main.
+
+ 
+
+Error 500--Internal Server Error 
+From RFC 2068 Hypertext Transfer Protocol -- HTTP/1.1:
+10.5.1 500 Internal Server Error
+The server encountered an unexpected condition which prevented it from 
+fulfilling the request.
+
+
+Thanks.
+
+Mat 

@@ -1,0 +1,55 @@
+Message-ID: <11470100.1075844004130.JavaMail.evans@thyme>
+Date: Tue, 17 Apr 2001 05:07:00 -0700 (PDT)
+From: matt.smith@enron.com
+To: chris.hyde@enron.com
+Subject: Re: Northwest Foreign Key Problems
+Cc: tara.piazze@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: tara.piazze@enron.com
+X-From: Matt Smith
+X-To: Chris Hyde
+X-cc: Tara Piazze
+X-bcc: 
+X-Folder: \Matthew_Smith_June2001\Notes Folders\All documents
+X-Origin: SMITH-M
+X-FileName: msmith18.nsf
+
+Chris, 
+
+The IHS DRN's are identified in red below.  Please make one up for the 608 
+Novelty Hill M/S point.  Thanks.  
+
+Mat
+
+PS.  This just reminded me that we need to start scraping that additional 
+PG&E point that we discussed last week.
+
+
+
+
+From: Chris Hyde/ENRON@enronXgate on 04/17/2001 09:43 AM
+To: Matt Smith/NA/Enron@ENRON, Tara Piazze/NA/Enron@ENRON
+cc: Colin Tonks/ENRON@enronXgate 
+
+Subject: Northwest Foreign Key Problems
+
+Hello...since I was working to reload some cycle 13 data for Northwest today, 
+it seemed like a good a time as any to take care of these few foreign key 
+violations as well.  These 4 points are reported on the Northwest site, but 
+do not appear in our PIPELINE_LOCATION table as of yet (hence the foreign key 
+violation):
+
+458 OWYHEE COMPRESSOR - 3553
+611 NORTH DOUGLAS RECEIPT (2001) - 37032
+608 NOVELTY HILL M/S - (mkup one)
+612 FOUNDATION CREEK PLANT (2001) - 2603
+
+
+If we can get these matched to their IHS DRN counterparts, that would be 
+great.  If not, we can make up the IHS number as we have in the past.
+
+Thanks,
+Chris
+

@@ -1,0 +1,194 @@
+Message-ID: <22487184.1075856121463.JavaMail.evans@thyme>
+Date: Thu, 17 May 2001 09:50:00 -0700 (PDT)
+From: enron.announcements@enron.com
+To: houston.report@enron.com
+Subject: Weekend Outage Report for 5-18-01 through 5-21-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Announcements
+X-To: Houston Outage Report
+X-cc: 
+X-bcc: 
+X-Folder: \Sandra_Brawner_Jun2001\Notes Folders\All documents
+X-Origin: Brawner-S
+X-FileName: sbrawne.nsf
+
+------------------------------------------------------------------------------
+------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+May 18, 2001 5:00pm through May 21, 2001 12:00am
+------------------------------------------------------------------------------
+------------------------
+                
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  No Scheduled Outages.
+
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: 
+Impact:  Internet
+Time:  Fri 5/18/2001 at  10:30:00 PM CT thru Fri 5/18/2001 at  11:30:00 PM CT
+ Fri 5/18/2001 at    8:30:00 PM PT thru Fri 5/18/2001 at    9:30:00 PM PT
+ Sat 5/19/2001 at  4:30:00 AM London thru Sat 5/19/2001 at  5:30:00 AM London
+Outage:  Upgrade IOS on ENEFW4
+Environments Impacted:  Internet
+Purpose: The new code has bug fixes and stateful failover feature.
+Backout: Revert back to old IOS.
+Contact(s):  John Shupak          713-853-7943
+  Bryan Aubuchon    713-345-8446
+ 
+MESSAGING: 
+Impact:  Corp Notes
+Time:  Fri 5/18/2001 at  9:00:00 PM CT thru Sat 5/19/2001 at  1:00:00 AM CT
+ Fri 5/18/2001 at  7:00:00 PM PT thru Fri 5/18/2001 at  11:00:00 PM PT
+ Sat 5/19/2001 at  3:00:00 AM London thru Sat 5/19/2001 at  7:00:00 AM London
+Outage:  cNotes Server Reboots
+Environments Impacted:  All users on any of the mailservers listed below
+Purpose: Scheduled @ 2 week interval
+Backout: Make sure server comes up.
+Contact(s):  Trey Rhodes  (713) 345-7792  
+        
+Impact:  EI
+Time:  Fri 5/18/2001 at  9:00:00 PM CT thru Sat 5/19/2001 at  1:00:00 AM CT
+ Fri 5/18/2001 at  7:00:00 PM PT thru Fri 5/18/2001 at  11:00:00 PM PT
+ Sat 5/19/2001 at  3:00:00 AM London thru Sat 5/19/2001 at  7:00:00 AM London
+Outage:  EI Notes Server Maintenance
+Environments Impacted:  EI Local/Domestic/Foreign Sites
+Purpose: Scheduled @ 2 week interval
+Backout: N/A
+Contact(s):  David Ricafrente    713-646-7741
+ 
+MARKET DATA: 
+Impact:  CORP
+Time:  Wed 5/16/2001 at  4:45:00 PM CT thru Wed 5/23/2001 at  4:45:00 PM CT
+ Wed 5/16/2001 at  2:45:00 PM PT thru Wed 5/23/2001 at  2:45:00 PM PT
+ Wed 5/16/2001 at  10:45:00 PM London thru Wed 5/23/2001 at  10:45:00 PM 
+London
+Outage:  Market Data Cable Management EB3460
+Environments Impacted:  All Trading Groups
+Purpose: Improve computer room environment.  Perform cable management in 
+order to comply with computer room standards.
+Backout: N/A
+Contact(s):  John Sieckman    713-345-7862
+ 
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: 
+Impact:  Corp, OTS, ETS    
+DATE:  MAY 29, 2001/2/2001 at  5:30:00 PM
+Outage:  Migrate DSS Server to GTHOU-APPSQ03P
+Environments Impacted:  DSS users will not be able to access the old server 
+(ENEDS01_ADAPT)after this date
+Purpose: The existing server is outdated, migrating to SQL 2000 provides 
+increased 
+functionality and conforms to database platform requirements.   
+Backout: 
+Contact(s):  Mary Vollmer          713-853-3381
+  Joe Hellsten           713-853-7346      713-545-4164
+
+Impact:  CORP
+Time:  Sat 5/19/2001 at  10:00:00 AM CT thru Sat 5/19/2001 at  4:00:00 PM CT
+ Sat 5/19/2001 at    8:00:00 AM PT thru Sat 5/19/2001 at  2:00:00 PM PT
+ Sat 5/19/2001 at  4:00:00 PM London thru Sat 5/19/2001 at  10:00:00 PM London
+Outage:  Moving Production Database TDSPROD
+Environments Impacted:  ENA
+Purpose: This database is being moved to give the space it is currently using 
+to the Enpower database on that server.  The new server Refraction will also 
+allow TDSPROD to expand as well.
+Backout: The old instance will be restarted and the TNSNAMES.ORA entry will 
+be changed to point at the old instance.
+Contact(s):  John Jahnke    713-345-4398
+                      
+Impact:  CORP
+Time:  Sat 5/19/2001 at  9:00:00 PM CT thru Sun 5/20/2001 at  12:00:00 AM CT
+ Sat 5/19/2001 at  7:00:00 PM PT thru Sat 5/19/2001 at   10:00:00 PM PT
+ Sun 5/20/2001 at  3:00:00 AM London thru Sun 5/20/2001 at  6:00:00 AM London
+Outage:  Resource addition for server moe.
+Environments Impacted:  Sitara, PEP, Global
+Purpose: Server is memory and cpu constrained.
+Backout: Shutdown the server and revert to old configuration.
+Contact(s):  Malcolm Wells    713-345-3716
+ 
+SITARA:   Also see above 
+Impact:  CORP
+Time:  Sat 5/19/2001 at   2:00:00 PM CT thru Sun 5/20/2001 at  12:00:00 AM CT
+ Sat 5/19/2001 at 12:00:00 PM PT thru Sat 5/19/2001 at   10:00:00 PM PT
+ Sat 5/19/2001 at  8:00:00 PM London thru Sun 5/20/2001 at  6:00:00 AM London
+Outage:  Resource additionto Sitara server aurora.
+Environments Impacted:  Sitara production
+Purpose: Add needed cpu and memory.
+Backout: Remove the newly added resources and restart under the old config.
+Contact(s):  Malcolm Wells    713-345-3716
+ 
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  
+Impact:  CORP
+Time:  Fri 5/18/2001 at  3:00:00 PM thru Sun 5/20/2001 at  11:45:00 PM
+Outage:  Unify Power Production Server Maintenance
+Environments Impacted:  Unify Users
+Purpose: Infrastructure required maintenance
+Backout: 
+Contact(s):  Brian Ripley          713-345-4709
+  Charles Ballmer    713-853-0684
+  Bob Ward              713-345-4409 
+
+ 
+SCHEDULED SYSTEM OUTAGES: Australia
+Impact:  CORP
+Time:  Sat 19-May-2001 at  10:00:00 AM Sydney thru Sat 19-May-2001 at 3:00:00 
+PM Sydney
+ Sat 19-May-2001 at  1:00:00 AM GMT (London) thru Sat 19-May-2001 at  6:00:00 
+AM GMT (London)
+ Fri 5/19/2001 at  7:00:00 PM CT (Houston) thru Sun 5/20/2001 at  12:00:00 AM 
+CT (Houston)
+ Fri 5/19/2001 at 5:00:00 PM PT (Portland)  thru Sat 5/19/2001 at  10:00:00 
+PM PT (Portland) 
+Outage: Sydney UPS Test & Service
+Environments Impacted:  Corp Sydney - all systems
+Purpose: Original UPS needs testing & service. Will require Server Room to be 
+de-powered to allow maintenance.
+Backout: Plug equipment into unconditioned power.
+Contact(s):  Colin Wood    +61-416-248-353
+  Elliott Katz +61-292-292-309
+
+
+------------------------------------------------------------------------------
+-------------------------------------------------------
+        FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management   (713) 853-5536
+SAP/ISC                                                                       
+        (713) 345-4727
+Unify On-Call      (713) 284-3757  [Pager]
+Sitara On-Call     (713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS   (713) 639-9726  [Pager]
+OSS/UA4/TARP    (713) 285-3165  [Pager]
+CPR      (713) 284-4175  [Pager]
+EDI Support      (713) 327-3893  [Pager]
+EES Help Desk     (713)853-9797 OR (888)853-9797

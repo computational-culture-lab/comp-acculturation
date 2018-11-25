@@ -1,0 +1,32 @@
+Message-ID: <25408035.1075844003860.JavaMail.evans@thyme>
+Date: Thu, 5 Apr 2001 10:31:00 -0700 (PDT)
+From: matt.smith@enron.com
+To: david.woodstrom@enron.com
+Subject: asp project 2
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Matt Smith
+X-To: David Woodstrom
+X-cc: 
+X-bcc: 
+X-Folder: \Matthew_Smith_June2001\Notes Folders\All documents
+X-Origin: SMITH-M
+X-FileName: msmith18.nsf
+
+David,
+
+This one is very similar to the one you just did.  In fact, the data is 
+almost identical.  We download power plant outage data from the California 
+ISO website (manual until you guys get some free time to set up an automated 
+scrape).  Anyway, the data gets into an Access database of mine in a table 
+with key fields:  Date and Res Name.  The other fields include Type (planned 
+or unplanned), Owner, Location, plant capacity, and of course, the quantity 
+of the outage.  So, we need basically the large table as the one you did 
+which lists each plant and the outage for "today" and let's say 1 week in the 
+past.  We cannot go in the future because the data gets posted daily for that 
+day only.  Then the other table will just summarize the total "Planned" and 
+"Unplanned" by region.   A copy of the database is attached.  Let me know 
+when you have a chance to start working on it.  Thanks.  
+
+Mat
