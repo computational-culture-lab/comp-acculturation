@@ -3,7 +3,7 @@
 Code credit: NLTK
 Bird, Steven, Edward Loper and Ewan Klein (2009).
 Natural Language Processing with Python.  O'Reilly Media Inc.
-Included to remove full nltk code dependency.
+Included to remove full NLTK code dependency.
 Licensed under the Apache License, Version 2.0
 """
 

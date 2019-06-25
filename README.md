@@ -3,7 +3,7 @@ Reference implementation for measuring cultural distances between individuals an
 
 ## Background
 
-This code is meant as a reference implementation for measuring cultural distances between groups of people based on text (such as in [this paper](https://www.gsb.stanford.edu/faculty-research/working-papers/fitting-or-standing-out-tradeoffs-structural-cultural-embeddedness))
+This code is meant as a reference implementation for measuring language-based cultural distances between groups of people (such as in [this paper, Fitting In or Standing Out](https://www.gsb.stanford.edu/faculty-research/working-papers/fitting-or-standing-out-tradeoffs-structural-cultural-embeddedness))
 
 The code can be used out-of-the-box for simple applications or easily modified, cannibalized, or extended for more custom applications. 
 
@@ -11,9 +11,11 @@ We hope this code will help kickstart your own experiments, but we provide no gu
 
 ## How to run
 
-This code requires Python 3 and numpy to run.
+This code requires `Python 3` and `numpy`. For `.eml` parsing support, the code additionally requires the `mail-parser` and `unidecode` packages.
 
-Additionally, you must download the LIWC 2007 csv file "LIWC2007dictionary poster.csv" and place it in the "text/" directory. (We cannot distribute this file.)
+Additionally, the user must provide a CSV lexicon for mapping words
+to lexical categories. LIWC was used for the work cited above, but the choice of lexicon is a design decision left to the user. The lexicon CSV must include a 'Word' field and an arbitrary number of word category fields for each word. For a sample lexicon file, see `sample-data/sample-lexicon.csv`. For more documentation on expected format, see comments in `acculturation/lexicon.py`.
+
 
 This code operates in two stages:
 
@@ -21,19 +23,19 @@ This code operates in two stages:
 
 Preprocessing takes as input raw messages and outputs LIWC category distributions for those messages. Input data can come in multiple formats: as .eml files (e.g., from an exported email inbox), as .csv files, or as line-by-line json-serialized documents. Preprocessed documents are written to disk as line-by-line json-serialized documents that can be loaded again using the provided `JsonDataReader`. 
 
-We have included sample .eml and .csv datasets derived from the Enron corpus that can be used to test. 
+We have included sample `.eml` and `.csv` datasets derived from the Enron corpus that can be used to test. 
 
-To preprocess the directory of .eml files, navigate to the code directory and type:
+To preprocess the directory of `.eml` files, navigate to the code directory in your terminal and enter the following command:
 
-`python preprocess.py -i sample-data/enron -o tmp/enron.json -f eml`
+`python preprocess.py -i sample-data/enron -l sample-data/sample-lexicon.csv -o enron.json -f eml`
 
-Preprocessed documents will be written to "tmp/enron.json."
+Preprocessed documents will be written to `enron.json`.
 
-To preprocess a single .csv file, type:
+To preprocess a single `.csv` file, type:
 
-`python preprocess.py -i sample-data/enron.gender.csv -o tmp/enron.gender.json -f csv -t body`
+`python preprocess.py -i sample-data/enron.gender.csv -l sample-data/sample-lexicon.csv -o enron.gender.json -f csv -t body`
 
-For more details on the command-line options for this script, simply type:
+For more details on the command-line options for this script, enter:
 
 `python preprocess.py -h`
 
@@ -49,11 +51,11 @@ This code supports several kinds of grouping and can be easily extended to suppo
 
 To take the preprocessed data from step 1 and measure dyadic distances, type:
 
-`python measure.py -i tmp/enron.json -o tmp/enron.dyadic.distances.csv -t dyadic`
+`python measure.py -i enron.json -o enron.dyadic.distances.csv -t dyadic`
 
 Or to measure distances between genders, type:
 
-`python measure.py -i tmp/enron.gender.json -o tmp/enron.gender.distances.csv -t group-to-group -g gender`
+`python measure.py -i enron.gender.json -o enron.gender.distances.csv -t group-to-group -g gender`
 
 For more details on the command-line options for this script, simply type:
 

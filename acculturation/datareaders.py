@@ -1,12 +1,18 @@
 
 import os
 import csv
-import ujson
-
-# For *.eml files
+import json
 import re
-import mailparser
-import unidecode
+
+try:
+    import mailparser
+except:
+    print("Warning: failed to load mail-parser module. This will be an issue if you want to process .eml files.")
+
+try:
+    import unidecode
+except:
+    print("Warning: failed to load unidecode module. This will be an issue if you want to process .eml files.")
 
 
 
@@ -60,7 +66,7 @@ class JsonDataReader:
         for fn in self.fns:
             with open(fn) as f:
                 for i,line in enumerate(f):
-                    d = ujson.loads(line)
+                    d = json.loads(line)
                     yield d
                 f.close()
 
@@ -68,7 +74,7 @@ class JsonDataReader:
     def write(docs, out_fn):
         with open(out_fn, 'w') as outf:
             for d in docs:
-                outf.write(ujson.dumps(d) + "\n")
+                outf.write(json.dumps(d) + "\n")
             outf.close()
 
 
@@ -91,6 +97,7 @@ class EmlDataReader:
         Does its best to parse each email before
         releasing.
         """
+
         # Eml exports often include duplicate emails.
         # We will try to limit the duplicates we release
         msg_ids = set()
@@ -108,7 +115,7 @@ class EmlDataReader:
                 # Combine to and cc fields (i.e., no distinction made
                 #   between direct messages and group messages)
                 "to": [a[1] for a in msg.to] + [a[1] for a in msg.cc],
-                "date": msg.date,
+                "date": str(msg.date),
                 "subject": msg.subject,
                 "body": body,
                 "attachments": [a['filename'] for a in msg.attachments]

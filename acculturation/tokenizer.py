@@ -46,8 +46,15 @@ __email__ = "See the author's website"
 
 ######################################################################
 
+import sys
 import re
-import html
+
+# Python 2 v 3 html entities toggling
+if sys.version_info >= (3, 0):
+    import html.entities as htmlentitydefs
+else:
+    import htmlentitydefs
+
 
 ######################################################################
 # The following strings are components in the regular expression
@@ -202,8 +209,8 @@ class Tokenizer:
         ents = filter((lambda x : x != amp), ents)
         for ent in ents:
             entname = ent[1:-1]
-            try:            
-                s = s.replace(ent, unichr(html.entities.name2codepoint[entname]))
+            try:
+                s = s.replace(ent, unichr(htmlentitydefs.name2codepoint[entname]))
             except:
                 pass                    
             s = s.replace(amp, " and ")
