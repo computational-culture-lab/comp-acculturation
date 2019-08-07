@@ -75,7 +75,7 @@ class CSVLexicon:
             if self.word_key not in row:
                 print("Error: lexicon must include a '%s' field." % self.word_key)
             w = row[self.word_key]
-            cats = [c for c in row if c != self.word_key]
+            cats = [c for c in row if c != self.word_key and row[c]]
             if "*" in w:
                 # This entry should match all stems
                 stem = stemmer.stem_word(w)
